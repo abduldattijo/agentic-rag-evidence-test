@@ -64,7 +64,5 @@ questions marked `1` in the `ok (1/0)` column of `data_full/questions_review.csv
   vary between runs. That is why they were run three times.
 - **Key loading.** `llm.py` in this repository reads the key only from `ANTHROPIC_API_KEY`. The
   version that produced the results could also read it from a private file. Nothing else differs.
-- **Data.** Titles and abstracts come from the arXiv API. arXiv states that its metadata is
-  available under a CC0 dedication (https://info.arxiv.org/help/license/index.html). Full texts were not
-  used.
+- **Data.** Titles and abstracts come from the arXiv API. arXiv's terms of use for its APIs allow descriptive metadata, which they say includes title and abstract, to be used under CC0 1.0 (https://info.arxiv.org/help/api/tou.html). Full texts were not used.
 - **No license file yet.** The code has no license until the author adds one.
