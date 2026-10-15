@@ -1,0 +1,4 @@
+anthropic
+arxiv
+numpy
+sentence-transformers
